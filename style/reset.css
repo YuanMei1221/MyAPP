@@ -1,0 +1,15 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin: 0;padding: 0;} /*清空填充和外邊距*/
+body{font-size:12px;}
+img{border:none;}
+li{list-style: none;}
+input,select,textarea{outline: none;border:none;background: none;} /*輪廓位於邊框邊緣的外圍，可起到突出元素的作用*/
+textarea{resize: none;} /*用戶無法調整元素尺寸*/
+a{text-decoration: none;color: #656565;}
+/*清除浮動*/
+.clearfix:after{content: "";display: block;clear: both;}
+.clearfix{zoom: 1;} /*針對IE 它可以设置或检索对象的缩放比例,触发ie的hasLayout属性，清除浮动、清除margin的重叠等。*/
+
+/*我们有个时候既希望元素具有宽度高度特性，又具有同行特性，这个时候我们可以使用inline-block*/
+
+.fl{float: left;}
+.fr{float: right;}
