@@ -40,7 +40,7 @@
 .shopClass_show {background-color: #4593FD;position: absolute;left: 0;top: 35px;width: 100%;padding-bottom:1px;}
 .shopClass_item {padding:14px 10px;border-bottom: #3487F2 solid 1px;
  border-top: #5AA1FE solid 1px;line-height:16px;}
-.shopClass_item dt {height:21px; line-height:1; overflow:hidden;background: url(../images/icon/shop_sj.jpg) right center no-repeat;}
+.shopClass_item dt {height:22px; background: url(../images/icon/shop_sj.jpg) right center no-repeat;}
 .shopClass_item .b{font-family: "Microsoft YaHei", "微软雅黑", serif ;font-size: 14px;font-weight: bold;}
 .shopClass_item a {color: #FFF;}
 .shopClass_item a:hover {text-decoration: underline;}
